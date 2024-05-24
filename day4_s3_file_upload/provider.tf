@@ -1,3 +1,0 @@
-aws provider "aws" {
-  
-}
