@@ -1,0 +1,3 @@
+aws provider "aws" {
+  
+}
