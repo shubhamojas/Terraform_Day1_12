@@ -9,3 +9,5 @@ resource "aws_instance" "my_instance" {
     Name="my_instance_new"
   }
 }
+
+#terraform import aws_instance.my_instance i-0c80a2fbea94807f8
