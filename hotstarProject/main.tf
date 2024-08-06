@@ -1,5 +1,5 @@
 resource "aws_instance" "web" {
-  ami                    = "ami-025fe52e1f2dc5044"      #change ami id for different region
+  ami                    = "cd .."      #change ami id for different region
   instance_type          = "t2.large"
   key_name               = "dockerdevops"              #change key name as per your setup
   vpc_security_group_ids = [aws_security_group.devops-project-shubham.id]
